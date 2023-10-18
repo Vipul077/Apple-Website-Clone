@@ -1,0 +1,275 @@
+*{
+    background-color: #FBFBFD;
+    margin: 0px;
+    padding: 0px;
+    /* width: 1512px; */
+}
+
+nav{
+    border: 2px solid yellow;
+    /* background-color: #303030; */
+    height: 44px;
+    width: 100%;
+
+}
+.nav-section{
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 220px 10px 220px;
+    align-items: center;
+}
+
+.nav-section>p{
+    /* z-index: 0; */
+    color: #FFFFFF;
+    background-color: #303030;
+    font-size: 14px;
+}
+
+.image-1>img{
+    background-color: #303030;
+    /* color: #FFFFFF; */
+    /* z-index: 0; */
+}
+
+.image-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgg{
+    padding-top: 20px;
+}
+.new{
+    color: red;
+    font-size: 12px;
+}
+
+.below-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 160px 10px 160px;
+    height: 116px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1135px;
+    background-color: white;
+    /* padding-bottom: 5px; */
+}
+
+.hero-section>.two-phones{
+    background-color: white;
+    padding-top: 90px;
+}
+
+.beyond-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1135px;
+    /* padding-bottom: 5px; */
+    background-color: black;
+}
+
+.bigandbigger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 116px;
+}
+.hero-section>.bigandbigger>p{
+    font-size: 17px;
+    /* background-color: black; */
+    color: black;
+}
+
+.hero-section>.bigandbigger>h5{
+    font-size: 21px;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+
+.hero-section>.bigandbigger>img{
+    font-size: 21px;
+    /* background-color: black; */
+}
+.beyond-section>.bigandbigger-2>p{
+    font-size: 21px;
+    color: #F5F5F7;
+    background-color: black;
+}
+.bigandbigger-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    padding-bottom: 80px;
+    padding-top: 194px;
+}
+
+.two-phones-1{
+    padding-top: 81px;
+    /* background-color: black; */
+}
+.two-phones{
+    padding-top: 95px;
+    background-color: black;
+}
+
+.beyond-section>.bigandbigger-2>p{
+    font-size: 17px;
+    background-color: black;
+    color: white;
+}
+
+.beyond-section>.bigandbigger-2>h5{
+    font-size: 21px;
+    background-color: black;
+    color: white;
+}
+
+.beyond-section>.bigandbigger-2>img{
+    font-size: 21px;
+    background-color: black;
+}
+.beyond-section>.bigandbigger-2>p{
+    font-size: 21px;
+    color: #F5F5F7;
+    background-color: black;
+}
+
+
+
+.buy-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+}
+.buy-section-2{
+    background-color: black;
+}
+.buy-section-2>.span-1{
+    background-color: black;
+}
+
+.buy-section-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+}
+
+.btn-1{
+    background-color: #0071E3;
+    border-radius: 25px;
+    padding: 5px 15px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.span-1{
+    color: violet;
+}
+
+.love-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 830px;
+    padding: 10px;
+
+}
+
+.love-left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.buy-section-3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    align-items: center;
+}
+
+.tour-guide-section{
+    /* background-image: url(./Apple-Asset/Background-Image-1.png); */
+    /* display: flex; */
+    border: 2px solid blue;
+    height: 838px;
+    width: 1512px;
+    position: relative;
+    text-align: center;
+}
+
+.content-tour{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    /* text-decoration: none; */
+    /* height: 811px; */
+    top: 320px;
+    right: 1050px;
+}
+
+.guide{
+    font-size: 24px;
+    padding-right: 30px;
+    background: none;
+    text-align:left;
+}
+
+.tour{
+    font-size: 48px;
+    text-align: left;
+}
+
+.btn-4{
+    width: 100px;
+    background-color: none;
+    border-radius: 20px;
+    height: 36px;
+    width: 142px;
+}
+
+
+.phone-catogeries{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.catogery-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(2, 5, 6);
+    border: 2px solid black;
+}
+
